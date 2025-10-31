@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pac‑Man Host</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="game-wrap">
+    <div class="topbar">
+      <label>Room ID: <input id="roomId" value="room1"></label>
+      <button id="startBtn">Start & Connect</button>
+      <span id="status"></span>
+    </div>
+    <canvas id="game" width="420" height="420"></canvas>
+    <div class="info">Use arrow keys or connect controllers.</div>
+  </div>
+  <script src="/pacman_host.js"></script>
+</body>
+</html>

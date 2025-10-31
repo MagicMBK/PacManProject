@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pac‑Man Controller</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="ctl-wrap">
+    <h2>Controller</h2>
+    <label>Room ID: <input id="roomId" value="room1"></label>
+    <button id="connectBtn">Connect</button>
+    <div id="ctlStatus"></div>
+    <div class="dpad">
+      <button data-dir="up">↑</button>
+      <div>
+        <button data-dir="left">←</button>
+        <button data-dir="right">→</button>
+      </div>
+      <button data-dir="down">↓</button>
+    </div>
+    <p>Or use arrow keys; input is sent to the host.</p>
+  </div>
+  <script src="/controller.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial;display:flex;align-items:center;justify-content:center;height:100vh;margin:0}
+.wrap{max-width:720px;text-align:center}
+.game-wrap, .ctl-wrap{display:flex;flex-direction:column;align-items:center;gap:12px}
+canvas{background:#000;border:6px solid #222}
+.topbar{display:flex;gap:8px;align-items:center}
+.dpad button{width:64px;height:48px;font-size:20px;margin:6px}
+.info{color:#666}
